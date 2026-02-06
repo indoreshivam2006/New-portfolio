@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Target, Rocket, BookOpen, Users, Globe, Code2, Brain } from 'lucide-react';
+import { Target, Rocket, BookOpen, Globe, Code2, Brain } from 'lucide-react';
 
 const goals = [
   { icon: Globe, text: 'Contribute to open source projects' },
