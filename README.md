@@ -1,73 +1,135 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Shivam Indore | Portfolio
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**A modern, animated portfolio showcasing my journey as a Software Engineer**
 
-## React Compiler
+[Live Demo](#) • [LinkedIn](https://www.linkedin.com/in/shivam-indore-52a947312/) • [GitHub](https://github.com/indoreshivam2006)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 **Modern UI/UX** - Clean, dark theme with glassmorphism effects
+- 🌊 **Smooth Animations** - Framer Motion powered transitions & parallax scrolling
+- 📱 **Fully Responsive** - Optimized for all screen sizes
+- ⚡ **Lightning Fast** - Vite + React 19 for optimal performance
+- 🧩 **Component Library** - 40+ shadcn/ui components
+- 🎯 **Interactive Elements** - Magnetic buttons, typing effects, and more
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React 19, TypeScript 5.9 |
+| **Build Tool** | Vite 7 |
+| **Styling** | Tailwind CSS, CVA, tailwind-merge |
+| **Animation** | Framer Motion 12 |
+| **UI Components** | shadcn/ui, Radix UI Primitives |
+| **Forms** | React Hook Form, Zod |
+| **Charts** | Recharts |
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/              # shadcn/ui components
+│   ├── MagneticButton.tsx
+│   ├── Navigation.tsx
+│   └── TypingEffect.tsx
+├── sections/
+│   ├── Hero.tsx         # Landing section with intro
+│   ├── About.tsx        # About me & quick info
+│   ├── Skills.tsx       # Technical skills & learning
+│   ├── Projects.tsx     # Featured projects showcase
+│   ├── Goals.tsx        # Vision & milestones
+│   └── Contact.tsx      # Contact form & socials
+├── hooks/
+├── lib/
+└── App.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Quick Start
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Clone the repository
+git clone https://github.com/indoreshivam2006/New-portfolio.git
+
+# Navigate to project
+cd New-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
 ```
+
+---
+
+## 📸 Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| **Facial Recognition Attendance** | Deep learning biometric attendance system | Python, React, Deep Learning |
+| **EventFlex** | Event management platform with QR attendance | Django, PostgreSQL |
+| **NEXTSHOPP** | E-commerce with Next.js 15 & React 19 | Next.js, Firebase, GSAP |
+| **Animated Physics** | Interactive physics simulations platform | React, Physics Engine |
+
+---
+
+## 📊 Currently Learning
+
+- 🤖 Machine Learning
+- 📐 Theory of Computation
+- 📈 Data Analysis & Visualization
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-indoreshivam2006-181717?style=for-the-badge&logo=github)](https://github.com/indoreshivam2006)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shivam_Indore-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivam-indore-52a947312/)
+[![Instagram](https://img.shields.io/badge/Instagram-shivtechflow__09-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shivtechflow_09)
+[![Email](https://img.shields.io/badge/Email-indoreshivam2006@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:indoreshivam2006@gmail.com)
+
+</div>
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Shivam Indore**
+
+*Full Stack Developer | Aspiring Cloud Engineer*
+
+📍 Thane, Maharashtra, India
+
+</div>
+
