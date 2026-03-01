@@ -181,7 +181,7 @@ export function Skills() {
               </div>
             ))}
           </div>
-          <div className="animate-marquee flex items-center gap-8" aria-hidden>
+          <div className="animate-marquee flex items-center gap-8" aria-hidden="true">
             {[...skillsList, ...skillsList].map((skill, index) => (
               <div
                 key={index}

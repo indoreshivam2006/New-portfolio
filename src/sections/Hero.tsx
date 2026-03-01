@@ -25,8 +25,8 @@ export function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden"
-      style={{ backgroundColor: '#05070A' }}
+      className="min-h-screen w-full flex items-center justify-center overflow-hidden"
+      style={{ backgroundColor: '#05070A', position: 'relative' }}
     >
       {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden">
